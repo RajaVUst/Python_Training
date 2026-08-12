@@ -1,0 +1,12 @@
+sentence = input("Enter a sentence: ")
+vowel_count = (
+    sentence.count("a")
+    + sentence.count("e")
+    + sentence.count("i")
+    + sentence.count("o")
+    + sentence.count("u")
+)
+print(f"Character count: {len(sentence)}")
+print(f"Word count: {len(sentence.split())}")
+print(f"Vowel count: {vowel_count}")
+print(f"Longer than 30: {len(sentence) > 30}")
