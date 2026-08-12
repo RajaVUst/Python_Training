@@ -1,0 +1,10 @@
+value_a = float(input("Enter first number: "))
+value_b = float(input("Enter second number: "))
+
+print(f"{'Addition':<10}{'+':^5}{value_a + value_b:>10.2f}")
+print(f"{'Subtraction':<10}{'-':^5}{value_a - value_b:>10.2f}")
+print(f"{'Multiplication':<10}{'*':^5}{value_a * value_b:>10.2f}")
+print(f"{'Division':<10}{'/':^5}{value_a / value_b:>10.2f}")
+print(f"{'Floor Div':<10}{'//':^5}{value_a // value_b:>10.2f}")
+print(f"{'Modulus':<10}{'%':^5}{value_a % value_b:>10.2f}")
+print(f"{'Power':<10}{'**':^5}{value_a ** value_b:>10.2f}")
