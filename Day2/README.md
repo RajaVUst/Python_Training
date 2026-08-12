@@ -1,4 +1,4 @@
-Day 2 - Assignment 1
+**Day 2 - Assignment 1**
 
 This assignment contains two Python programs covering basic Python concepts.
 
