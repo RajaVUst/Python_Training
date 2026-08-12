@@ -15,7 +15,7 @@ is_palindrome = (word == word[::-1])
 print(is_palindrome)
 
 #Exercise 4 — Email Splitter
-email = "Navya samudrala@company.com"
+email = "navyasamudrala@company.com"
 username, domain = email.split("@")
 print(f"Username: {username}")
 print(f"Domain: {domain}")
