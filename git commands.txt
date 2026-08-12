@@ -1,6 +1,0 @@
-git status-->to check the status of current repo
-git add .  -->to add all those things which we want to add
-git commit -m "Any message"  -->to commit
-git branch --> to verify our branch
-git push -u origin feature/manikanta/307460		--->to push our local repo into remote repo
-
