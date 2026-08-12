@@ -11,14 +11,14 @@ print(f"Is the sentence a palindrome? {is_palindrome}")
  
  
 #Part2- Simple Calculator, Revisited
-num1=float(input("Enter the first number: "))
-num2=float(input("Enter the second number: "))
-print(f"{'Addition':<12}{'+':^5}{'result':>10.2f}")
-print(f"{'Subtraction':<12}{'-':^5}{'result':>10.2f}")
-print(f"{'Multiplication':<12}{'*':^5}{'result':>10.2f}")
-print(f"{'Division':<12}{'/':^5}{'result':>10.2f}")
-print(f"{'Exponentiation':<12}{'**':^5}{'result':>10.2f}")
-print(f"{'Floor Division':<12}{'//':^5}{'result':>10.2f}")
-print(f"{'Modulus':<12}{'%':^5}{'result':>10.2f}")
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
  
+print(f"{'Addition':<15}{'+':^5}{num1 + num2:>10.2f}")
+print(f"{'Subtraction':<15}{'-':^5}{num1 - num2:>10.2f}")
+print(f"{'Multiplication':<15}{'*':^5}{num1 * num2:>10.2f}")
+print(f"{'Division':<15}{'/':^5}{num1 / num2:>10.2f}")
+print(f"{'Exponentiation':<15}{'**':^5}{num1 ** num2:>10.2f}")
+print(f"{'Floor Division':<15}{'//':^5}{num1 // num2:>10.2f}")
+print(f"{'Modulus':<15}{'%':^5}{num1 % num2:>10.2f}")
  
