@@ -1,0 +1,8 @@
+print(7 // 2) 
+print(7 % 2) 
+print(2 ** 3) 
+print(10 > 5 and 3 > 5) 
+print(10 > 5 or 3 > 5) 
+print(not True) 
+print("5" + "5") 
+print(5 == 5.0) 
