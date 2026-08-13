@@ -1,0 +1,13 @@
+sentence = input("Enter a sentence: ")
+
+words = sentence.split()
+cleaned = sentence.replace(" ", "").lower()
+
+print("Length:", len(sentence))
+print("Uppercase:", sentence.upper())
+print("Lowercase:", sentence.lower())
+print("Reversed:", sentence[::-1])
+print("Word count:", len(words))
+print("First word:", words[0])
+print("Last word:", words[-1])
+print("Is palindrome:", cleaned == cleaned[::-1])
