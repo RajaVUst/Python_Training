@@ -1,0 +1,10 @@
+# Exercise 6 - Leap Year Checker
+year = 2024
+if year % 400 == 0:
+    print("Leap Year")
+elif year % 100 == 0:
+    print("Not a Leap Year")
+elif year % 4 == 0:
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
