@@ -1,6 +1,0 @@
-num1 = float(input("Enter First digit: "))
-num2 = float(input("Enter Second digit: "))
-print(f'sum of {num1} and {num2} is {num1 + num2}')
-print(f'diff of {num1} and {num2} is {num1 - num2}')
-print(f'product of {num1} and {num2} is { num1 * num2}')
-print(f'quotient of {num1} and {num2} is {num1 / num2}')
