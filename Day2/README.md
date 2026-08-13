@@ -16,6 +16,7 @@ String slicing for reversing
 String replacement using replace()
 f-string formatting
 
+
 Part 2 - Simple Calculator
 
 This program takes two numbers from the user and performs addition, subtraction, multiplication, division, floor division, modulus, and exponentiation. The results are displayed in a neatly aligned table using f-string formatting.
