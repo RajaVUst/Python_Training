@@ -1,0 +1,7 @@
+num=int(input("Enter a number: "))
+decimal=float(input("Enter a decimal number: "))
+text=input("Enter a text: ")
+print(f"Number:{num},type:{type(num)}")
+print(f"Decimal:{decimal},type:{type(decimal)}")
+print(f"Text:{text},type:{type(text)}")
+print(f"{num}/{decimal}={num/decimal:.2f}")
