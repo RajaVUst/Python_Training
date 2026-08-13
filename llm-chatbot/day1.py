@@ -92,11 +92,11 @@
 
 
 #exercise 10
-item=input("Enter the item name: ")
-price=float(input("Enter the price of the item: "))
-status=bool(input("Enter the status of the item (available/sold out): ").lower() == "available")
+#item=input("Enter the item name: ")
+#price=float(input("Enter the price of the item: "))
+#status=bool(input("Enter the status of the item (available/sold out): ").lower() == "available")
 
-print(f"Item: {item}, Price: {price:.2f}, Status: {'Available' if status else 'Sold Out'}")
+#print(f"Item: {item}, Price: {price:.2f}, Status: {'Available' if status else 'Sold Out'}")
 
 
 
@@ -104,21 +104,36 @@ print(f"Item: {item}, Price: {price:.2f}, Status: {'Available' if status else 'S
 
 #exercise 11
 
-height=float(input("Enter your height in meters: "))
-weight=float(input("Enter your weight in kilograms: "))
-bmi=weight/(height**2)
-print(f"Your BMI is: {bmi:.1f}")
+#height=float(input("Enter your height in meters: "))
+#weight=float(input("Enter your weight in kilograms: "))
+#bmi=weight/(height**2)
+#print(f"Your BMI is: {bmi:.1f}")
 
 
 
 #exercise 12
 
+#n = 15
+#div_by_3 = (n % 3 == 0) 
+#div_by_5 = (n % 5 == 0) 
+#div_by_both = div_by_3 and div_by_5 
+#print("Divisible by 3", div_by_3)
+#print("Divisible by 5", div_by_5)
+#print("Divisible by both", div_by_both)
 
+#exercise 13
+#amount=float(input("Enter the amount in US Dollars: "))
+#conversion_rate=float(input("Enter the conversion rate to your local currency: "))
+#local_currency=amount*conversion_rate
+#print(f"Amount in local currency: {local_currency:.2f}")
 
-
-
-
-
+#exercise 14
+score1 = float(input("Enter first score: "))
+score2 = float(input("Enter second score: "))
+score3 = float(input("Enter third score: "))
+average = (score1 + score2 + score3) / 3
+has_passed = average >= 40
+print(f"Average: {average:.1f} | Passed: {has_passed}")
 
 
 
