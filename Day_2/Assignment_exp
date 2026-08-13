@@ -1,0 +1,20 @@
+# Day 2 Graded Deliverable
+
+## Part 1 - String Manipulation Script
+This program accepts a sentence from the user and displays:
+ Total character count
+ Uppercase and lowercase versions
+ Reversed sentence
+ Word count
+ First and last words
+ Palindrome check (ignoring spaces and letter case)
+
+## Part 2 - Simple Calculator Revisited
+This program accepts two numbers from the user and performs:
+ Addition (+)
+ Subtraction (-)
+ Multiplication (*)
+ Division (/)
+ Floor Division (//)
+ Modulus (%)
+ Exponentiation (**)
