@@ -1,0 +1,48 @@
+Part 1: String Manipulation Script
+Description
+
+In this section, the program asks the user to enter a sentence. It then performs several operations on the entered text and displays the results.
+
+Operations Performed
+
+Find Sentence Length
+
+Calculates the total number of characters in the sentence using len().
+
+Convert Text Case
+
+Converts the sentence to uppercase using upper().
+Converts the sentence to lowercase using lower().
+
+Reverse the Sentence
+
+Uses string slicing ([::-1]) to display the sentence in reverse order.
+
+Count Words
+
+Splits the sentence into words using split().
+Counts the number of words present.
+
+Display First and Last Word
+
+Extracts the first and last words from the sentence.
+
+Palindrome Check
+
+Removes leading and trailing spaces.
+Converts the text to lowercase.
+Compares the string with its reversed version to determine whether it is a palindrome.
+
+Part 2: Simple Calculator
+Description
+
+This section of the program functions as a basic calculator. It accepts two numbers from the user and performs multiple arithmetic operations.
+
+Operations Performed
+Operation	Symbol	DescriptionAddition	+	Adds two numbers
+Subtraction	-	Finds the difference
+Multiplication	*	Multiplies two numbers
+Division	/	Performs normal division
+Exponentiation	**	Raises first number to the power of second
+Floor Division	//	Returns the quotient without decimal values
+Modulus	%	Returns the remainder
