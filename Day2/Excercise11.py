@@ -1,5 +1,5 @@
 #Username Validator (Facts Only)  
-username = "logesh"
+username = "45"
 
 print("Alphanumeric:", username.isalnum())
 print("Length:", len(username))
