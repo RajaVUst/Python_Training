@@ -60,9 +60,9 @@ order_summary("Mouse", 3)
 def book_ticket(passenger, seat_type="Economy", meal="Veg"):
     print(f"Passenger: {passenger}, Seat: {seat_type}, Meal: {meal}")
 
-book_ticket("Reni")
-book_ticket("Reni", meal="Non-Veg")
-book_ticket("Reni", meal="Veg", seat_type="Business")
+book_ticket("Shoaib")
+book_ticket("Shoaib", meal="Non-Veg")
+book_ticket("Shoaib", meal="Veg", seat_type="Business")
 
 # Q9
 def total_cost(*prices):
