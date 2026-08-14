@@ -20,3 +20,14 @@ print(word[5])
 sentence = "one two three" 
 word_list = sentence.split() 
 print(f"Word count: {len(word_list)}") 
+
+"""
+Output ->
+Start
+Middle
+End
+I am 24 years old
+Welcome, reni_k!
+n
+Word count: 3
+"""

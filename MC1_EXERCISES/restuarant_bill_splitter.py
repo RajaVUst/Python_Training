@@ -7,3 +7,11 @@ tip_amount = bill_amount * 0.10 * tip
 split_per_person = (bill_amount+tip_amount)/number_of_people
 
 print(f"Each person pays: {split_per_person:.2f}")
+
+"""
+Output ->
+Enter the amount70
+Enter how many should split8
+Want tip(YES/NO)YES
+Each person pays: 9.62
+"""

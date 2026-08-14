@@ -16,3 +16,11 @@ print(fav_num)
 
 #This is to print the details of the user using f-string
 print(f"{name} is {age} years old and {height_m}m tall.") 
+
+"""
+Output ->
+<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'bool'>
+"""

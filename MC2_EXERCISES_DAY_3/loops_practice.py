@@ -1,8 +1,23 @@
 # Multiplication table 
+
 num = 5
 
 for i in range(1,11):
     print(f"{i} * {num} = {i*num}")
+
+"""
+Output ->
+1 * 5 = 5
+2 * 5 = 10
+3 * 5 = 15
+4 * 5 = 20
+5 * 5 = 25
+6 * 5 = 30
+7 * 5 = 35
+8 * 5 = 40
+9 * 5 = 45
+10 * 5 = 50
+"""
 
 # Sum of whole numbers
 
@@ -25,6 +40,8 @@ while num>0:
 
 print(sum)
 
+# 190
+
 # While Loop Practice
 
 num = 5
@@ -35,6 +52,17 @@ while num >= 1:
 
 print("Liftoff!")
 
+"""
+Output ->
+10
+5
+4
+3
+2
+1
+Liftoff!
+"""
+
 # Right angled triangle pattern
 
 n = 5
@@ -43,6 +71,15 @@ for i in range(1, n + 1):
     for j in range(i):
         print("*", end="")
     print()
+
+"""
+Output ->
+*
+**
+***
+****
+*****
+"""
 
 # Vowel Counter
 
@@ -55,3 +92,9 @@ for ch in text:
         count += 1
 
 print(count)
+
+"""
+Output->
+hello
+2
+"""

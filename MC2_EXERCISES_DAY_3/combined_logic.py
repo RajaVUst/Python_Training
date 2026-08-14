@@ -1,6 +1,6 @@
 #FizzBuzz
 
-for i in range(1,51):
+for i in range(1,10):
     if i%3==0:
         if i%5==0:
             print("FuzzBuzz")
@@ -14,6 +14,19 @@ for i in range(1,51):
     else:
         print(i)
 
+"""
+Output ->
+1
+2
+fuzz
+4
+Buzz
+fuzz
+7
+8
+fuzz
+"""
+
 # Reverse a number
 
 n = 54332
@@ -26,6 +39,8 @@ while n > 0:
 
 print(reversed_n)
 
+#23345
+
 # Check paliendrome
 
 num = "123456"
@@ -36,6 +51,8 @@ if(num==reversed):
     print("Paliendrome")
 else:
     print("Not Paliendrome")
+
+# Not Paliendrome
 
 # Print Primes in a range
 
@@ -64,6 +81,8 @@ if is_prime:
     print("Prime")
 else:
     print("Not Prime")
+    
+# Not Prime
 
 # Factorial of a number
 
@@ -75,6 +94,8 @@ for i in range(1, n + 1):
     factorial *= i
 
 print(factorial)
+
+#120
 
 # Fibonacci Numbers
 
@@ -90,7 +111,10 @@ for i in range(2, num):
     print(c, end=" ")
     a = b
     b = c
-
+"""
+Output ->
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377
+""" 
 # Currency Converter
 
 amount_inr = 150
@@ -108,3 +132,8 @@ else:
 
 if converted is not None:
     print(round(converted, 2))
+
+"""
+Output ->
+1.76
+"""

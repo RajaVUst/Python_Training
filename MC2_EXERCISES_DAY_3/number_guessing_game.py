@@ -9,3 +9,15 @@ for i in numbers:
     else:
         print("Correct")
         break
+
+"""
+Output ->
+Too low
+Too low
+Too low
+Too low
+Too low
+Too low
+Too low
+Correct
+"""

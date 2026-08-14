@@ -19,3 +19,18 @@ print(clean.replace("Fun", "Powerful"))
 print("-".join(words))  
 # One line summary
 print(f"Words: {len(words)} | Reversed: {clean[::-1]}") 
+
+"""
+Output ->
+Python IS Fun to Learn!!
+python is fun to learn!!
+PYTHON IS FUN TO LEARN!!
+P
+!
+Pytho
+['Python', 'IS', 'Fun', 'to', 'Learn!!']
+5
+Python IS Powerful to Learn!!
+Python-IS-Fun-to-Learn!!
+Words: 5 | Reversed: !!nraeL ot nuF SI nohtyP
+"""

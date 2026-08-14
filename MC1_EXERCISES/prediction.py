@@ -6,3 +6,14 @@ print(10 > 5 or 3 > 5)
 print(not True) 
 print("5" + "5") 
 print(5 == 5.0) 
+
+""".
+3
+1
+8
+False
+True
+False
+55
+True
+"""

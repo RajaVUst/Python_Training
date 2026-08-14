@@ -7,3 +7,9 @@ div_by_both = div_by_3 and div_by_5
 print(div_by_3)
 print(div_by_5)
 print(div_by_both)
+
+"""
+True.
+True
+True
+"""

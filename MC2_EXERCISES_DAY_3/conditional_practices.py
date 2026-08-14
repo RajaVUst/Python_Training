@@ -1,6 +1,7 @@
 num = 6
 
 # Positive or negative
+
 if num>0:
     print("Positive")
 elif num<0:
@@ -8,12 +9,16 @@ elif num<0:
 else:
     print("Zero")
 
+# Positive
+
 # Odd or Even
 
 if num%2==0:
     print("Even")
 else:
     print("Odd")
+
+# Even
 
 # Leap Year
 
@@ -27,6 +32,8 @@ elif year % 4 == 0:
     print("Leap Year")
 else:
     print("Not a Leap Year")
+
+# Not a Leap Year
 
 # Largest Number
 
@@ -45,6 +52,8 @@ elif b>a:
     else:
         print("C largest")
 
+# C Largest
+
 # Grading System
 
 score = 85
@@ -60,7 +69,9 @@ elif score >= 40:
 else:
     print("F")
 
-# Vlid Triangle
+# B
+
+# Valid Triangle
 
 a = 30
 b = 20
@@ -70,3 +81,5 @@ if a + b > c and a + c > b and b + c > a:
     print("Valid triangle")
 else:
     print("Not a valid triangle")
+
+# Valid Triangle

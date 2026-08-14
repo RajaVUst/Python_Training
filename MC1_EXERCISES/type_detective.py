@@ -9,3 +9,12 @@ print(type(b))
 print(type(c))
 print(type(d))
 print(type(e))
+
+"""
+Output ->
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+<class 'str'>
+"""
