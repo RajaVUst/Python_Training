@@ -1,10 +1,10 @@
-# Assignment 1 (Graded) - Day 2
+
 # Part 1: String Manipulation Script
 # Part 2: Simple Calculator, Revisited
 
-# ============================================================
+
 # PART 1 - String Manipulation Script
-# ============================================================
+
 
 sentence = input("Enter a sentence: ")
 
@@ -20,9 +20,9 @@ print(f"First word      : {words[0]}")
 print(f"Last word       : {words[-1]}")
 print(f"Is palindrome   : {cleaned == cleaned[::-1]}")
 
-# ============================================================
+
 # PART 2 - Simple Calculator, Revisited
-# ============================================================
+
 
 print("\n")
 num1 = float(input("Enter first number : "))

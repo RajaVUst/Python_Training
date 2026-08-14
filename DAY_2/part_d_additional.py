@@ -53,16 +53,4 @@ print(f"{item:<15}|{price:>8.2f}")
 
 print("---")
 
-# --- Exercise 14: Traceback Autopsy (comprehension — no code to run) ---
-# Traceback:
-#   File "report.py", line 4, in <module>
-#       average = total / count
-#   ZeroDivisionError: division by zero
-#
-# Exception type : ZeroDivisionError
-# File & line    : report.py, line 4
-# Failing line   : average = total / count
-# Root cause     : The variable 'count' holds the value 0, and dividing any
-#                  number by zero is mathematically undefined, so Python raises
-#                  a ZeroDivisionError.
-print("Exercise 14 is a reading exercise — see comments in the source file.")
+
