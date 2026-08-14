@@ -1,4 +1,4 @@
-n = 1234
+n = 12345
 total = 0
 while n > 0:
     digit = n % 10
