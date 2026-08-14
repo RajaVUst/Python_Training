@@ -1,0 +1,14 @@
+# Recursive sum
+
+def sum_upto(n):
+    if n == 1:
+        return 1
+    else:
+        return n + sum_upto(n - 1)
+    
+print(sum_upto(5))
+print(sum_upto(1))
+
+# Output:
+#15
+#1
