@@ -10,6 +10,7 @@ print_student_info(
     city="Trivandrum"
 )
 
+
 # output
 # name: Selma
 # age: 22
