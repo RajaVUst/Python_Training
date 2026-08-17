@@ -1,3 +1,42 @@
+
+# Create a variable holding a messy sentence
+sentence = "   Python IS Fun to Learn!!   "
+
+
+#Clean the sentence using strip()
+clean = sentence.strip()
+print(clean)
+
+
+#Print lowercase and uppercase versions
+print(clean.lower())
+print(clean.upper())
+
+
+#Indexing and slicing
+print(clean[0])
+print(clean[-1])
+print(clean[:5])
+
+
+# Split the sentence into words and count them
+words = clean.split()
+
+print(words)
+print(len(words))
+
+
+# Replace "Fun" with "Powerful"
+print(clean.replace("Fun", "Powerful"))
+
+
+#Rebuild the sentence using join()
+print("-".join(words))
+
+
+# Print a one-line summary
+print(f"Words: {len(words)} | Reversed: {clean[::-1]}")
+
 s = input("Enter a sentence: ")
 
 clean_sen = s.replace(" ", "").lower()
