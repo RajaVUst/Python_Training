@@ -1,8 +1,6 @@
 sentence = input("Enter a sentence: ")
-
 words = sentence.split()
 cleaned = sentence.replace(" ", "").lower()
-
 print("Length:", len(sentence))
 print("Uppercase:", sentence.upper())
 print("Lowercase:", sentence.lower())
