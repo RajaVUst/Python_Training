@@ -223,13 +223,13 @@ total=0
 
 
 
-#exercise 14
-# n = int(input("Enter number of rows: "))
+# exercise 14
+n = int(input("Enter number of rows: "))
 
-# for i in range(1, n + 1):
-#     for j in range(i):
-#         print("*", end="")
-#     print()
+for i in range(1, n + 1):
+    for j in range(i):
+        print("*", end="")
+    print()
 
 
 #exercise 15
@@ -260,21 +260,33 @@ total=0
 
 #exercise 17
 
-n = int(input("Enter number: "))
+# n = int(input("Enter number: "))
 
-reversed_n = 0
+# n = 0
 
-while n > 0:
-    digit = n % 10
-    reversed_n = reversed_n * 10 + digit
-    n = n // 10
+# while n > 0:
+#     digit = n % 10
+#     n = n * 10 + digit
+#     n = n // 10
 
-print("Reversed:", reversed_n)
-
-
+# print("Reversed_string:", n)
 
 
 
+
+# exercise 18
+
+n=int(input("number"))
+original =n
+reverse=0
+while n>0:
+    digit =n%10
+    reverse=reverse*10+digit
+    n=n//10
+if original==reverse:
+    print("palaindrome")
+else:
+    print("not palaindrome")
 
 
 
