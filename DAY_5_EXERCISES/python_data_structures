@@ -1,0 +1,11 @@
+List: Use when you need an ordered collection that can change.
+Tuple: Use for fixed data that shouldn't be modified.
+Set: Use for unique items and fast membership checks.
+Dictionary: Use for storing data as key-value pairs for quick lookups.
+
+Example:
+
+List → ["Amit", "Reni", "Tara"]
+Tuple → (12.97, 77.59)
+Set → {"python", "sql", "excel"}
+Dictionary → {"name": "Reni", "score": 91}
