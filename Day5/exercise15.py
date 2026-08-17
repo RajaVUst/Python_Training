@@ -11,7 +11,8 @@ print("Even cubes:", even_cubes)
 
 '''
 output
-Score 84 has grade B.
+Cubes: [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
+Even cubes: [8, 64, 216, 512, 1000]
 
 
 '''
