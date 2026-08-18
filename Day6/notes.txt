@@ -1,0 +1,7 @@
+
+with open("notes.txt", "w") as f:
+    f.write("Python is a versatile programming language.\n")
+    f.write("It is widely used for web development and data science.\n")
+    f.write("File handling lets programs read and write data on disk.\n")
+    f.write("Exceptions help programs handle errors gracefully.\n")
+    f.write("Practice is the best way to master these concepts.\n")
