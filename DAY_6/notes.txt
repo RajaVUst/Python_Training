@@ -1,0 +1,5 @@
+Python is a versatile and beginner-friendly programming language.
+Functions help us reuse code and keep our programs organized.
+Data structures like lists, dicts, and sets are core to Python.
+File handling lets us read and write data that persists on disk.
+Exception handling makes programs robust and prevents unexpected crashes.
