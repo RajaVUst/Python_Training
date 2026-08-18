@@ -1,4 +1,3 @@
 I learned how to read files in Python.
 I learned how to count words in a text file.
 I learned how to iterate through file lines.
-I learned how to write and append files in Python.
