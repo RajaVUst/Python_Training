@@ -1,0 +1,7 @@
+2026-03-23 10:02 ERROR Connection timeout
+2026-03-23 10:05 INFO User logged in
+2026-03-23 10:07 WARNING Disk space is low
+Malformed line
+2026-03-23 10:10 INFO File uploaded successfully
+2026-03-23 10:12 ERROR Database unavailable
+2026-03-23 10:15 DEBUG Request received
