@@ -1,0 +1,4 @@
+I learned how to open and read files.
+I learned the difference between write and append mode.
+I learned to use the with statement for safety.
+I learned to work with csv and json files.

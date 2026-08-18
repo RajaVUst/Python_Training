@@ -1,0 +1,5 @@
+Python is a beginner-friendly language.
+Today we are learning file handling.
+Files can be read, written, and appended.
+Exceptions help programs avoid crashing.
+Practice is the key to mastering this topic.
