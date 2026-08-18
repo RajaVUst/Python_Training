@@ -1,0 +1,4 @@
+I learned about lists and list operations.
+I practiced tuples, sets, and dictionaries.
+I completed file handling exercises in Python.
+I learned how to read and write files.
