@@ -1,0 +1,4 @@
+I learned Python functions.
+I learned lists and dictionaries.
+I learned file handling.
+I learned exceptions.

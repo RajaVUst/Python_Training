@@ -1,0 +1,6 @@
+name,score
+Asha,85
+Rahul,92
+Priya,78
+Arun,105
+Meena,
