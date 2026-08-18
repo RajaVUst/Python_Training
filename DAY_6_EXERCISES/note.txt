@@ -1,0 +1,5 @@
+Hello from notes file.
+Python file handling is useful.
+This is the third line.
+Practice makes coding easier.
+End of sample notes.

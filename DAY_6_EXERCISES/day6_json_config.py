@@ -1,0 +1,28 @@
+import json
+
+class MissingConfigKeyError(Exception):
+    pass
+
+def load_config(path):
+    with open(path, "r") as f:
+        data = json.load(f)
+
+    if "batch_size" not in data:
+        raise MissingConfigKeyError("Missing key: batch_size")
+
+    if "learning_rate" not in data:
+        raise MissingConfigKeyError("Missing key: learning_rate")
+
+    return data
+
+try:
+    config = load_config("DAY_6_EXERCISES/config.json")
+    print(config)
+
+except MissingConfigKeyError as e:
+    print("Configuration Error:", e)
+
+"""
+Output->
+{'batch_size': 32, 'learning_rate': 0.001}
+"""

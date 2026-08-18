@@ -1,0 +1,8 @@
+2026-03-23 10:00 INFO Application started
+2026-03-23 10:01 INFO User login successful
+2026-03-23 10:02 ERROR Connection timeout
+2026-03-23 10:03 WARNING Low disk space
+MALFORMED LINE
+2026-03-23 10:05 INFO Settings loaded
+2026-03-23 10:06 ERROR Database unavailable
+2026-03-23 10:07 INFO Application stopped
