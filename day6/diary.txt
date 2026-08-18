@@ -1,0 +1,4 @@
+I learned how to work with files in Python.
+I practiced reading and writing text files.
+I learned how to count words in a file.
+I learned how to append data to a file.

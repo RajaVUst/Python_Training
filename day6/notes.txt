@@ -1,0 +1,7 @@
+Python is easy to learn.
+I am practicing file handling.
+
+Reading files is useful.
+Python supports many libraries.
+
+Keep practicing every day.
