@@ -1,0 +1,5 @@
+Python is easy to learn.
+I am practicing file handling.
+Today I learned about exceptions.
+I want to improve my Python skills.
+Practice makes programming easier.

@@ -1,0 +1,4 @@
+{
+  "batch_size": 30,
+  "learning_rate": 0.01
+}
