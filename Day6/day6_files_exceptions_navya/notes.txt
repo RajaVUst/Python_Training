@@ -1,0 +1,5 @@
+Started learning Python this week
+Practiced loops and conditionals
+Built small scripts daily
+Learning file handling now
+Excited for the next module

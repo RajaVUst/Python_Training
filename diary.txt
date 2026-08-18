@@ -1,0 +1,4 @@
+Learned about file handling today
+Practiced reading and writing text files
+Understood the difference between read and write modes
+Feeling confident about today's topic
