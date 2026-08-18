@@ -1,6 +1,6 @@
 # PART A
 def say_hello():
-    print("Hello, Python learner!")
+    print("Hello, Python learner!")  #prints Hello, Python learner!
 
 
 say_hello() # prints hello , python learner!
@@ -9,7 +9,8 @@ say_hello() # prints hello , python learner!
 
 # Task 2
 def greet_user(name):
-    print(f"Hello, {name}! Welcome to Python.")
+    print(f"Hello, {name}! Welcome to Python.")  #prints Hello, Bijo! Welcome to Python
+
 
 name1 = input("Enter your name: ")
 name2 = input("Enter your classmate's name: ")
@@ -19,11 +20,13 @@ greet_user(name2) #prints Hello, Zack! Welcome to Python
 
 # Task 3
 def show_square(number):
-    print(f"The square of {number} is {number * number}")
+    print(f"The square of {number} is {number * number}")  #prints The square of 5 is 25
+
 
 show_square(5) #prints The square of 5 is 25
 show_square(10) #prints The square of 10 is 100
 show_square(-4) #prints The square of -4 is 16
+
 
 # PART B
 def multiply(a, b):
@@ -31,15 +34,15 @@ def multiply(a, b):
 
 
 result = multiply(5, 4)
-print("Task 4 result:", result) #prints 20
+print("Task 4 result:", result) #prints Task 4 result: 20
+
 
 # Task 5
-
 def is_even_print(n):
     if n % 2 == 0:
-        print("Even")
+        print("Even")  #prints Even
     else:
-        print("Odd")
+        print("Odd")  #prints Odd
 
 
 def is_even_return(n):
@@ -49,34 +52,39 @@ def is_even_return(n):
         return False
 
 
-is_even_print(7)
+is_even_print(7)  #prints Odd
 
 result = is_even_return(7)
-print("Is 7 even?", result)
+print("Is 7 even?", result)  #prints Is 7 even? False
+
 
 # Task 6
 def celsius_to_fahrenheit(celsius):
     return celsius * 9 / 5 + 32
 
 
-print("0 Celsius =", celsius_to_fahrenheit(0))
-print("37 Celsius =", celsius_to_fahrenheit(37))
-print("100 Celsius =", celsius_to_fahrenheit(100))
+print("0 Celsius =", celsius_to_fahrenheit(0))  #prints 0 Celsius = 32.0
+print("37 Celsius =", celsius_to_fahrenheit(37))  #prints 37 Celsius = 98.6
+print("100 Celsius =", celsius_to_fahrenheit(100))  #prints 100 Celsius = 212.0
 
-# part C
+
+# PART C
 def order_summary(item, quantity=1):
-    print(f"Item: {item}")
-    print(f"Quantity: {quantity}")
+    print(f"Item: {item}")  #prints Item: Laptop
+    print(f"Quantity: {quantity}")  #prints Quantity: 1
+
 
 order_summary("Laptop")
 order_summary("Notebook", 5)
 
+
 # Task 8
 def book_ticket(passenger, seat_type="Economy", meal="Veg"):
-    print(f"Passenger: {passenger}")
-    print(f"Seat Type: {seat_type}")
-    print(f"Meal: {meal}")
-    print()
+    print(f"Passenger: {passenger}")  #prints Passenger: Joel
+    print(f"Seat Type: {seat_type}")  #prints Seat Type: Economy
+    print(f"Meal: {meal}")  #prints Meal: Veg
+    print()  #prints a blank line
+
 
 book_ticket("Joel")
 
@@ -85,7 +93,6 @@ book_ticket("John", meal="Non-Veg")
 book_ticket("David", meal="Non-Veg", seat_type="Business")
 
 
- 
 # Task 9
 def total_cost(*prices):
     total = 0
@@ -96,14 +103,14 @@ def total_cost(*prices):
     return total
 
 
-print("Total of 2 prices:", total_cost(100, 200))
+print("Total of 2 prices:", total_cost(100, 200))  #prints Total of 2 prices: 300
+print("Total of 5 prices:", total_cost(100, 200, 300, 400, 500))  #prints Total of 5 prices: 1500
 
-print("Total of 5 prices:", total_cost(100, 200, 300, 400, 500))
 
 # Task 10
 def print_student_info(**details):
     for key, value in details.items():
-        print(f"{key}: {value}")
+        print(f"{key}: {value}")  #prints each student's detail
 
 
 print_student_info(
@@ -112,12 +119,15 @@ print_student_info(
     course="Python",
     city="Chennai"
 )
+#prints name: Joel
+#prints age: 23
+#prints course: Python
+#prints city: Chennai
 
 
 # PART D
 
 # Task 11
-
 def multiply_with_docstring(a, b):
     """Returns the product of two numbers."""
     return a * b
@@ -128,13 +138,14 @@ def celsius_to_fahrenheit_with_docstring(celsius):
     return celsius * 9 / 5 + 32
 
 
-print(multiply_with_docstring(5, 3))
-print(celsius_to_fahrenheit_with_docstring(100))
- 
+print(multiply_with_docstring(5, 3))  #prints 15
+print(celsius_to_fahrenheit_with_docstring(100))  #prints 212.0
+
+
 # Task 12
 def reset_score():
     score = 0
-    print("Score inside function:", score)
+    print("Score inside function:", score)  #prints Score inside function: 0
 
 
 reset_score()
@@ -153,40 +164,42 @@ log_attempt()
 log_attempt()
 log_attempt()
 
-print("Total attempts:", total_attempts)
+print("Total attempts:", total_attempts)  #prints Total attempts: 3
 
 
- 
 # Task 14
 cube = lambda number: number * number * number
 
-print("Cube using lambda:", cube(3))
+print("Cube using lambda:", cube(3))  #prints Cube using lambda: 27
 
 
 def cube_regular(number):
     return number * number * number
 
 
-print("Cube using regular function:", cube_regular(3))
+print("Cube using regular function:", cube_regular(3))  #prints Cube using regular function: 27
 
 
- 
 # Task 15
 def countdown(n):
 
     if n == 0:
-        print("Liftoff!")
+        print("Liftoff!")  #prints Liftoff!
     else:
-        print(n)
+        print(n)  #prints the current countdown number
         countdown(n - 1)
 
 
 countdown(5)
+#prints 5
+#prints 4
+#prints 3
+#prints 2
+#prints 1
+#prints Liftoff!
 
 
- 
 # Task 16
-
 def sum_upto(n):
 
     if n == 1:
@@ -195,10 +208,12 @@ def sum_upto(n):
         return n + sum_upto(n - 1)
 
 
-print("sum_upto(5):", sum_upto(5))
-print("sum_upto(1):", sum_upto(1))
+print("sum_upto(5):", sum_upto(5))  #prints sum_upto(5): 15
+print("sum_upto(1):", sum_upto(1))  #prints sum_upto(1): 1
 
-# PART E: 
+
+# PART E
+
 # Task 17
 def is_palindrome(word):
     word = word.lower()
@@ -209,12 +224,11 @@ def is_palindrome(word):
         return False
 
 
-print("level:", is_palindrome("level"))
-print("python:", is_palindrome("python"))
-print("Madam:", is_palindrome("Madam"))
+print("level:", is_palindrome("level"))  #prints level: True
+print("python:", is_palindrome("python"))  #prints python: False
+print("Madam:", is_palindrome("Madam"))  #prints Madam: True
 
 
- 
 # Task 18
 def grade_from_score(score):
 
@@ -234,10 +248,15 @@ scores = [95, 82, 61, 40, 100]
 
 for score in scores:
     grade = grade_from_score(score)
-    print(f"{score} -> {grade}")
+    print(f"{score} -> {grade}")  #prints the score and its grade
+
+#prints 95 -> A
+#prints 82 -> B
+#prints 61 -> D
+#prints 40 -> F
+#prints 100 -> A
 
 
- 
 # Task 19
 def count_vowels(text):
     count = 0
@@ -249,33 +268,52 @@ def count_vowels(text):
     return count
 
 
-print("Vowels in Python Bootcamp:", count_vowels("Python Bootcamp"))
-print("Vowels in Hello, how are you?:", count_vowels("Hello, how are you?"))
+print("Vowels in Python Bootcamp:", count_vowels("Python Bootcamp"))  #prints Vowels in Python Bootcamp: 4
+print("Vowels in Hello, how are you?:", count_vowels("Hello, how are you?"))  #prints Vowels in Hello, how are you?: 8
 
 
- 
 # Task 20
 def fizzbuzz_range(start, end):
 
     for number in range(start, end + 1):
 
         if number % 3 == 0 and number % 5 == 0:
-            print("FizzBuzz")
+            print("FizzBuzz")  #prints FizzBuzz
 
         elif number % 3 == 0:
-            print("Fizz")
+            print("Fizz")  #prints Fizz
 
         elif number % 5 == 0:
-            print("Buzz")
+            print("Buzz")  #prints Buzz
 
         else:
-            print(number)
+            print(number)  #prints the current number
 
 
 fizzbuzz_range(1, 20)
 
+#prints 1
+#prints 2
+#prints Fizz
+#prints 4
+#prints Buzz
+#prints Fizz
+#prints 7
+#prints 8
+#prints Fizz
+#prints Buzz
+#prints 11
+#prints Fizz
+#prints 13
+#prints 14
+#prints FizzBuzz
+#prints 16
+#prints 17
+#prints Fizz
+#prints 19
+#prints Buzz
 
- 
+
 # Task 21
 def is_prime(n):
 
@@ -302,11 +340,10 @@ def primes_up_to(limit):
     return primes
 
 
-print("Prime numbers up to 30:")
-print(primes_up_to(30))
+print("Prime numbers up to 30:")  #prints Prime numbers up to 30:
+print(primes_up_to(30))  #prints [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
 
 
- 
 # Task 22
 def password_strength(password):
 
@@ -331,14 +368,12 @@ def password_strength(password):
         return "Weak"
 
 
-print("Password 1:", password_strength("hello"))
-print("Password 2:", password_strength("hello12"))
-print("Password 3:", password_strength("Hello123"))
+print("Password 1:", password_strength("hello"))  #prints Password 1: Weak
+print("Password 2:", password_strength("hello12"))  #prints Password 2: Medium
+print("Password 3:", password_strength("Hello123"))  #prints Password 3: Strong
 
 
- 
 # Task 23
-
 def build_utilities(operation, *values):
 
     if operation == "sum":
@@ -383,6 +418,5 @@ def build_utilities(operation, *values):
         return "Invalid operation"
 
 
-print(build_utilities("sum", 4, 8, 15))
-print(build_utilities("average", 2, 4, 6, 8))
-
+print(build_utilities("sum", 4, 8, 15))  #prints 27
+print(build_utilities("average", 2, 4, 6, 8))  #prints 5.0
