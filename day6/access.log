@@ -1,0 +1,8 @@
+2026-03-23 10:02 ERROR Connection timeout\n")
+    f.write("2026-03-23 10:05 INFO User login successful\n")
+    f.write("2026-03-23 10:07 WARNING Disk space low\n")
+    f.write("2026-03-23 10:10 INFO File uploaded\n")
+    f.write("MALFORMED LINE\n")  # Missing fields
+    f.write("2026-03-23 10:15 ERROR Database unavailable\n")
+    f.write("2026-03-23 10:18 INFO Password changed\n")
+    f.write("2026-03-23 10:20 WARNING High memory usage\n")
