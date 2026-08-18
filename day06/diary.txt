@@ -1,0 +1,4 @@
+I learned how to read files.
+I learned how to write files.
+I learned how to use loops.
+I learned how to append data.

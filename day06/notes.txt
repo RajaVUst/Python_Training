@@ -1,0 +1,3 @@
+Day 06 practice lab
+The topics we cover on todays self learning -
+File handling and exceptions
