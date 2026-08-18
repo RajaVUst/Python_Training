@@ -1,0 +1,4 @@
+I learned about Python file handling.
+I learned how to read and write files.
+I learned how to use different file modes.
+I learned how to append data without deleting existing content.
