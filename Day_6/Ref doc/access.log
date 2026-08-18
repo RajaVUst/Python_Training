@@ -1,0 +1,8 @@
+2026-03-23 10:02 ERROR Connection timeout
+2026-03-23 10:05 INFO User login successful
+2026-03-23 10:10 WARNING Low disk space
+2026-03-23 10:15 ERROR Database unavailable
+MALFORMED LINE
+2026-03-23 10:20 INFO File uploaded
+2026-03-23 10:30 WARNING High memory usage
+2026-03-23 10:35 INFO User logout
