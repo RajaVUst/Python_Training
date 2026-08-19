@@ -1,0 +1,4 @@
+"Welcome to UST"
+"UST GLobal Solution"
+"I am a python Programmer"
+"Python is a programming language"

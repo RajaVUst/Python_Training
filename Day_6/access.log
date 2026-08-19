@@ -1,0 +1,8 @@
+2026-03-23_10:00 INFO Server started
+2026-03-23_10:01 INFO User login successful
+2026-03-23_10:02 ERROR Connection timeout
+2026-03-23_10:03 WARNING Disk space low
+MALFORMED LINE
+2026-03-23_10:04 INFO Request processed
+2026-03-23_10:05 ERROR Database unavailable
+2026-03-23_10:06 INFO Server stopped
