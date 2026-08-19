@@ -1,0 +1,4 @@
+Generative AI (GenAI) is a type ofartificial intelligence that can create new content such as text, images, code, audio, and videos.
+It learns patterns from large amounts of existing data and uses them to generate new, human-like content.
+Examples include ChatGPT, Google Gemini, GitHub Copilot, and DALL·E.
+In simple terms, traditional AI analyzes or predicts; GenAI creates.

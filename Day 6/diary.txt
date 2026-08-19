@@ -1,0 +1,4 @@
+I learned python. 
+I learned functions. 
+I learned File reading. 
+I am going to learn GenAI.
