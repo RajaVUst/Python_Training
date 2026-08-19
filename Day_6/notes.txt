@@ -1,0 +1,5 @@
+Python is easy to learn.
+Jupyter Notebook is useful.
+Files can store text data.
+Practice helps improve skills.
+Reading files is important.
