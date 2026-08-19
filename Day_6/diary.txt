@@ -1,0 +1,4 @@
+I learned Python file handling.
+I learned how to work with CSV files.
+I learned how to handle exceptions.
+I practiced reading and writing JSON files.
