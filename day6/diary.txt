@@ -1,0 +1,4 @@
+I learned how to read files in Python.
+I learned how to write text to files.
+I learned how to handle exceptions.
+I learned how append mode preserves existing content.
