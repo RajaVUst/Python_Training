@@ -1,0 +1,5 @@
+Python file handling
+I learned about CSV files
+JSON is useful for structured data
+Exceptions help handle errors
+Functions make code reusable
