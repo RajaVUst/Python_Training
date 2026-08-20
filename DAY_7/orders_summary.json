@@ -1,0 +1,13 @@
+{
+  "total_per_customer": {
+    "alice": 680.5,
+    "bob": 89.99,
+    "david": 180.0,
+    "carol": 315.75
+  },
+  "distinct_statuses": [
+    "shipped",
+    "delivered",
+    "pending"
+  ]
+}
