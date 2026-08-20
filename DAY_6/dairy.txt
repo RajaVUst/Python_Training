@@ -1,0 +1,4 @@
+We have covered functions 
+We have learned data structures on list,tuples,sets,dict 
+today file handling and expection errordoing tasks
+doing tasks
