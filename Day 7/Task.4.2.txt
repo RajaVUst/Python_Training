@@ -1,0 +1,11 @@
+Specific exception vs. bare except
+
+A specific exception, such as "ZeroDivisionError", only catches the error we are expecting. This allows other unexpected errors to still show up instead of being hidden. A bare except: can catch almost any exception, which can make it harder to find and fix bugs. Because of this, it is usually better to use specific exceptions.
+
+Purpose of finally
+
+The finally block contains code that should run whether an error occurs or not. For example, if a program opens a database connection, finally can be used to close the connection even if something goes wrong while the program is running.
+
+Why catch file errors separately?
+
+Different file-related exceptions mean different things. "FileNotFoundError" means the file could not be found, "PermissionError" means the program does not have permission to access it, and "IsADirectoryError" means a directory was used when a file was expected. Handling these errors separately lets the program give the user a clearer message and respond to each problem appropriately.
