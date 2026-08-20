@@ -1,0 +1,15 @@
+{
+  "totals_by_customer": {
+    "Anu": 100.5,
+    "Ritika": 200.0,
+    "Ardra": 150.0,
+    "Lekhya": 75.25,
+    "Keerthi": 125.5,
+    "Deepu": 300.0
+  },
+  "statuses": [
+    "completed",
+    "cancelled",
+    "pending"
+  ]
+}
