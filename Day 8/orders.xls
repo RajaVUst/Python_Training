@@ -1,0 +1,9 @@
+order_id,customer,amount,status
+O101,Amit,2500.50,Completed
+O102,Reni,1800,Pending
+O103,Tara,3200.75,Completed
+O104,Amit,invalid,Cancelled
+O105,Sam,950,Pending
+O106,Reni,,Completed
+O107,Tara,4100,Completed
+O108,Sam,1250.25,Pending

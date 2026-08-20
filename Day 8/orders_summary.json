@@ -1,0 +1,12 @@
+{
+  "total_per_customer": {
+    "Amit": 2500.5,
+    "Reni": 1800.0,
+    "Tara": 7300.75,
+    "Sam": 2200.25
+  },
+  "statuses": [
+    "Completed",
+    "Pending"
+  ]
+}
