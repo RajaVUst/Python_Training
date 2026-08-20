@@ -1,0 +1,14 @@
+{
+  "valid_order_count": 6,
+  "total_amount_per_customer": {
+    "Alice": 220.49,
+    "Bob": 75.0,
+    "Carol": 341.0,
+    "Dave": 50.0
+  },
+  "distinct_statuses": [
+    "completed",
+    "pending",
+    "shipped"
+  ]
+}

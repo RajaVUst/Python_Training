@@ -1,0 +1,6 @@
+Application started
+User logged in
+File uploaded
+Report generated
+Application stopped
+A new log entry was appended
