@@ -1,0 +1,4 @@
+I  learend basics of python
+I learned functions 
+I learned data structures
+I learned loops concepts
