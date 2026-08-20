@@ -1,4 +1,0 @@
-I learned how to read files.
-I learned how to work with CSV and JSON.
-I learned how to handle exceptions.
-I practiced raising custom exceptions.
