@@ -1,0 +1,7 @@
+Application started
+User logged in
+Data loaded successfully
+User updated profile
+Application closed
+New log entry added
+Another log entry added

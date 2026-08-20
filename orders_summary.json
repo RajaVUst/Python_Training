@@ -1,0 +1,14 @@
+{
+  "customer_totals": {
+    "Alice": 701.5,
+    "Bob": 295.5,
+    "Carol": 650.0,
+    "David": 350.0
+  },
+  "statuses": [
+    "Cancelled",
+    "Completed",
+    "Pending",
+    "Shipped"
+  ]
+}
