@@ -1,0 +1,6 @@
+order_id,customer,amount,status
+1001,Chaila,250.5,Completed
+1002,Shree,120,Pending
+1003,Dhilip,450.75,Completed
+1004,Asmitha,3000,Shipped
+1005,Lekhya,invalid,Pending
