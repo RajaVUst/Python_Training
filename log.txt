@@ -1,0 +1,6 @@
+Server started
+User alice logged in
+Processed 42 records
+Warning: low disk space
+Server shutting down
+Additional entry appended after restart

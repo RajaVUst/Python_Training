@@ -1,0 +1,10 @@
+order_id,customer,amount,status
+1001,alice,120.50,shipped
+1002,bob,75.00,pending
+1003,alice,not_a_number,shipped
+1004,carol,300.00,delivered
+1005,bob,,cancelled
+1006,dave,45.25,pending
+1007,carol,60.10,shipped
+1008,alice,15.00,delivered
+1009,eve,99.99,pending
