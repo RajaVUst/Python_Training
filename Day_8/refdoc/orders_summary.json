@@ -1,0 +1,12 @@
+{
+  "customer_totals": {
+    "Abrani": 375.75,
+    "Ram": 220.0,
+    "Priya": 300.0
+  },
+  "distinct_statuses": [
+    "completed",
+    "pending",
+    "shipped"
+  ]
+}
