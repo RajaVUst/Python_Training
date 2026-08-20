@@ -1,0 +1,10 @@
+order_id,customer,amount,status
+1,Alice,77000,completed
+2,Shiva,12000,completed
+3,Bob,55000,completed
+4,Mohan,,pending
+5,Shiva,88000,pending
+6,Eva,22000,pending
+7,David,60000,completed
+8,Rana,,pending
+9,Eva,82500,completed

@@ -1,0 +1,13 @@
+{
+  "customer_totals": {
+    "Alice": 77000.0,
+    "Shiva": 100000.0,
+    "Bob": 55000.0,
+    "Eva": 104500.0,
+    "David": 60000.0
+  },
+  "statuses": [
+    "completed",
+    "pending"
+  ]
+}
