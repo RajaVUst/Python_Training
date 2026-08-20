@@ -1,0 +1,11 @@
+{
+    "total_amount_per_customer": {
+        "Alice": 375.75,
+        "Bob": 420.0,
+        "Charlie": 180.75
+    },
+    "distinct_statuses": [
+        "Completed",
+        "Pending"
+    ]
+}
