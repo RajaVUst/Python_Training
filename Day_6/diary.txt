@@ -1,0 +1,4 @@
+Learned how to create funtion.
+Learned about list, tuple, dict.
+Learned about statements.
+Learned read and write.
