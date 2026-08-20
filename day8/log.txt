@@ -1,0 +1,7 @@
+INFO: Application started
+INFO: User logged in
+INFO: Data loaded
+WARNING: Low disk space
+INFO: Application closed
+INFO: New session started
+INFO: New data added
