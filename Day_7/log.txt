@@ -1,0 +1,6 @@
+INFO: Application started
+INFO: User logged in
+INFO: Inventory loaded
+WARNING: Low stock for pens
+INFO: Application finished
+INFO: Appended log entry
