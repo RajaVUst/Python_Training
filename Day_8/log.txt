@@ -1,0 +1,7 @@
+System started
+User logged in
+Data loaded
+Report generated
+System shutdown
+Manual open example
+Append mode example
