@@ -1,0 +1,1 @@
+Build working fluency in Pythons list/tuple/set/dict and comprehensions, plus file and exception handling, through realistic scenarios.

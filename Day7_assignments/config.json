@@ -1,0 +1,5 @@
+
+{
+  "app_name": "InventoryApp",
+  "version": 1.2,
+  "features": ["export", "search", "notifications", "dark_mode"]
