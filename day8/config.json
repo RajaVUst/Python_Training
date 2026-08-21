@@ -1,0 +1,12 @@
+{
+  "app_name": "MyApp",
+  "features": [
+    "login",
+    "reports",
+    "dark_mode"
+  ],
+  "limits": {
+    "max_users": 100,
+    "timeout": 30
+  }
+}
