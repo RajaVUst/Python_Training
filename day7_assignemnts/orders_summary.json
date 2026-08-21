@@ -1,0 +1,13 @@
+{
+  "customer_totals": {
+    "Varshith": 3500.0,
+    "Vinaya": 5000.0,
+    "Aishu": 1500.0,
+    "Ajay": 1800.0
+  },
+  "statuses": [
+    "Shipped",
+    "Pending",
+    "Completed"
+  ]
+}
