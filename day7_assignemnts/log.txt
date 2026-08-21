@@ -1,0 +1,5 @@
+Write a list of 5 log lines to log.txt using open(..., "w") and a with block.
+Read it back line by line and print line numbers.
+Rewrite it correctly using with again
+Rewrite it correctly using with again
+Rewrite it correctly using with again
