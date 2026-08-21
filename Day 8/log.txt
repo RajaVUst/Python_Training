@@ -1,0 +1,6 @@
+2026-08-21 09:00 INFO Application started
+2026-08-21 09:05 INFO User logged in
+2026-08-21 09:10 WARNING High memory usage
+2026-08-21 09:15 ERROR Database connection failed
+2026-08-21 09:20 INFO Application stopped
+2026-08-21 09:25 INFO New log entry

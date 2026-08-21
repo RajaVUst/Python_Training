@@ -1,0 +1,9 @@
+order_id,customer,amount,status
+ORD001,Alice,250.50,completed
+ORD002,Bob,120.00,pending
+ORD003,Alice,300.75,completed
+ORD004,Carol,invalid,cancelled
+ORD005,Bob,450.00,completed
+ORD006,David,,pending
+ORD007,Carol,175.25,completed
+ORD008,Alice,100.00,pending
