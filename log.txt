@@ -1,0 +1,6 @@
+INFO: Application started
+INFO: User logged in
+WARNING: Low disk space
+ERROR: Failed to connect to database
+INFO: Application closed
+INFO: New session started
