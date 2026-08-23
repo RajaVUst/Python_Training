@@ -1,0 +1,4 @@
+INFO: Application started
+INFO: User logged in
+INFO: New session started
+INFO: Backup completed
