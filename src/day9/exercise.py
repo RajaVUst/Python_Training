@@ -274,7 +274,6 @@ runs = [
     early_stop_run
 ]
 
-
 print("\nTask 4:")
 
 print_all_summaries(runs)
