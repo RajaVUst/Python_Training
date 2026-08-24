@@ -954,7 +954,7 @@ print("=" * 60)
 ############output############
 
 
-"""PS C:\python> & C:\Python313\python.exe c:/python/python_training/day6.py
+"""output
 
 Exercise 1
 Number of characters: 141
