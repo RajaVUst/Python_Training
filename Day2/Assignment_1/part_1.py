@@ -17,4 +17,3 @@ print(f"Word count: {len(words)}")
 print(f"First word: {first_word}")
 print(f"Last word: {last_word}")
 print(f"Palindrome: {is_palindrome}")
-
